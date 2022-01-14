@@ -22,15 +22,13 @@
     max-width: 900px;
     background-color: var(--clr-light-1);
     border-radius: 20px;
-    border: red solid 1px;
 }
 
 .form--wrapper{
     max-width: 700px;
     width: 100%;
     margin: auto;
-    border: solid 2px purple;
-    padding: 10px 0;
+    padding: 10px 15px;
 }
 
 .form--wrapper .row{
@@ -64,6 +62,10 @@
     padding:1em;
 }
 
+.section--form input{
+    font-size: 1rem;
+}
+
 /* gender */
 .gender,
 .radio-group{
@@ -81,4 +83,27 @@
 
 .radio-group:nth-child(2){
     margin-left: 12px;
+}
+
+input[type="radio"]{
+    accent-color: var(--clr-primary-darck);
+    height: 20px;
+    width: 20px;
+    margin-left: 13px;
+}
+
+.desc{
+    height: 1500px;
+}
+
+button[type="submit"]{
+    font-weight: var(--font-medium);
+    margin-top: 10px;
+    padding:.5em 1em;
+    font-size: 1.3rem;
+    color: var(--clr-primary);
+    border: solid 1px var(--clr-primary);
+    border-radius: 15px;
+    background-color: var(--clr-light-1);
+    cursor: pointer;
 }
