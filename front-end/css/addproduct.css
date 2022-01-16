@@ -104,3 +104,19 @@ button[type="submit"]:hover{
     background-color: var(--clr-primary);
     color: var(--clr-light-1);
 }
+
+
+/* Add employee */
+.employee--form .form--wrapper{
+    width: 90%;
+    max-width: 580px;
+    padding: 35px;
+}
+
+.employee--form .input-group{
+    margin: 1.6em 0;
+}
+
+.employee--form button[type="submit"]{
+    margin-top: 0em;
+}
