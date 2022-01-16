@@ -1,36 +1,4 @@
-/* Bordered form */
-/* body {
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    /* display: flex; */
 
-/* form {
-     border: 2px solid #f1f1f1; 
-  } */
-.bg-img {
-  /* The image used */
-  background-image: url("../img/background-login.jpg");
-  /* Control the height of the image */
-  /* min-height: 380px; */
-  /* width: 100%; */
-
-  /* Center and scale the image nicely */
-  position: relative;
-  width: 1920px;
-  height: 1080px;
-  bottom: 71px;
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* position: relative;
-    box-sizing: border-box; */
-}
-
-/* input {
-    font-size: 30;
-    font-family: Poppins;
-  } */
 label {
   /* margin-left: 24px; */
   /* margin-right: 24px; */
@@ -125,22 +93,41 @@ button:hover {
   text-align: center;
 }
 .container-4 {
-    padding: 61px;
-    font-size: 26;
-    font-family: Roboto;
-    font-weight: bold;
-    width: 246px;
-    height: 285px;
-    background-color: #f8f8fa;
-    border-radius: 20px;
-    border-color: #707070;
-    border: 1px solid;
-    margin-top: 76px;
-    position: relative;
-    top: -645px;
-    margin-left: 1200px;
-    text-align: center;
-  }
+  padding: 61px;
+  font-size: 26;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 620px;
+  height: 285px;
+  background-color: #f8f8fa;
+  border-radius: 20px;
+  border-color: #707070;
+  border: 1px solid;
+  margin-top: 76px;
+  position: relative;
+  top: 76px;
+  /* bottom: 71px; */
+  /* padding-bottom: 100px; */
+  /* display: flex; */
+}
+.container-5 {
+  padding: 61px;
+  font-size: 26;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 620px;
+  height: 285px;
+  background-color: #f8f8fa;
+  border-radius: 20px;
+  border-color: #707070;
+  border: 1px solid;
+  margin-top: 76px;
+  position: relative;
+  top: 76px;
+  /* bottom: 71px; */
+  /* padding-bottom: 100px; */
+  /* display: flex; */
+}
 
 p {
   height: 48px;
