@@ -40,6 +40,7 @@ ul{
     margin: auto;
     display: flex;
     position: relative;
+    padding-bottom: 3em;
 }
 
 .hr{
@@ -135,6 +136,7 @@ ul{
     align-items: center;
     box-shadow: 0 10px 20px #cacccf1a;
     position: fixed;
+    z-index: 9;
 }
 
 .main--top_inner{
