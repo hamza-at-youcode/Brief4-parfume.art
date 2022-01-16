@@ -17,11 +17,18 @@
     --font-secondary:'Open Sans';
 }
 
+
 .section--form{
     width: 90%;
     max-width: 900px;
     background-color: var(--clr-light-1);
     border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.section--form .title--mobile{
+    text-align: center;
+    transform: translateY(1.2em);
 }
 
 .form--wrapper{
@@ -96,9 +103,14 @@ input[type="radio"]{
     height: 1500px;
 }
 
+.btn-group{
+    display: flex;
+    justify-content: flex-end;
+}
+
 button[type="submit"]{
     font-weight: var(--font-medium);
-    margin-top: 10px;
+    margin-top: 1.5em;
     padding:.5em 1em;
     font-size: 1.3rem;
     color: var(--clr-primary);
@@ -106,4 +118,9 @@ button[type="submit"]{
     border-radius: 15px;
     background-color: var(--clr-light-1);
     cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: var(--clr-primary);
+    color: var(--clr-light-1);
 }
